@@ -1,4 +1,5 @@
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # Import from standard library
 import os
@@ -19,5 +20,5 @@ import pytest
 #     out = clean_data(df)
 #     assert out.shape == (985, 119)
 
-# def test_try_me():
-#     assert try_me() == ""
+def test_try_me():
+    assert try_me() == "OK"

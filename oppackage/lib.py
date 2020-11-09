@@ -1,4 +1,5 @@
-# -*- coding: UTF-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Copyright (C) 2018 Jean Bizot <jean@styckr.io>
 """ Main lib for oppackage Project
 """
@@ -67,6 +68,8 @@ def try_me():
     time.sleep(0.3)
     url = "https://docs.google.com/presentation/d/1Q7eK1vfQsMv9wZvMkVdwtm-HT-X1jzCyAChwuHiDdr4/edit"
     webbrowser.open(url, new=2)
+
+    return "OK"
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython

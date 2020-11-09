@@ -10,3 +10,8 @@ black
 yapf
 python-gitlab
 twine
+datetime
+requests
+time
+os
+webbrowser
