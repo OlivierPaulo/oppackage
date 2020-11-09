@@ -53,11 +53,11 @@ def clean_data(data):
 
 
 def try_me():
-    print("3\n")
+    print("3")
     time.sleep(1)
-    print("2\n")
+    print("2")
     time.sleep(1)
-    print("1\n")
+    print("1")
     time.sleep(1)
     print("""
         #################################################
@@ -65,7 +65,8 @@ def try_me():
         #################################################
         """)
     time.sleep(0.3)
-    webbrowser.open("https://docs.google.com/presentation/d/1Q7eK1vfQsMv9wZvMkVdwtm-HT-X1jzCyAChwuHiDdr4/edit", new=2)
+    url = "https://docs.google.com/presentation/d/1Q7eK1vfQsMv9wZvMkVdwtm-HT-X1jzCyAChwuHiDdr4/edit"
+    webbrowser.open(url, new=2)
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython

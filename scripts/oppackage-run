@@ -8,7 +8,7 @@ import pandas as pd
 
 # Import from oppackage
 import oppackage
-from oppackage.lib import clean_data
+#from oppackage.lib import clean_data
 from oppackage.lib import try_me
 
 if __name__ == '__main__':
@@ -16,9 +16,9 @@ if __name__ == '__main__':
     description = 'oppackage_description'
     # https://docs.python.org/3/library/argparse.html
     # https://docs.python.org/3/howto/argparse.html
-    parser = argparse.ArgumentParser(description=description, usage=usage)
-    args = parser.parse_args()
-    folder_source, _ = split(oppackage.__file__)
+    #parser = argparse.ArgumentParser(description=description, usage=usage)
+    #args = parser.parse_args()
+    #folder_source, _ = split(oppackage.__file__)
     #df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
     #print('  oppackage/data/data.csv.gz Loaded')
 
