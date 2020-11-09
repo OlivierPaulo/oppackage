@@ -1,0 +1,3 @@
+graft oppackage
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  oppackage/jupy *
