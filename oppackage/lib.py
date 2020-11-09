@@ -6,6 +6,10 @@
 from os.path import split
 import pandas as pd
 import datetime
+import time
+import os
+import webbrowser
+
 
 pd.set_option('display.width', 200)
 
@@ -47,6 +51,21 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+
+def try_me():
+    print("3\n")
+    time.sleep(1)
+    print("2\n")
+    time.sleep(1)
+    print("1\n")
+    time.sleep(1)
+    print("""
+        #################################################
+        ##################  FED UP !! ###################
+        #################################################
+        """)
+    time.sleep(0.3)
+    webbrowser.open("https://docs.google.com/presentation/d/1Q7eK1vfQsMv9wZvMkVdwtm-HT-X1jzCyAChwuHiDdr4/edit", new=2)
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
