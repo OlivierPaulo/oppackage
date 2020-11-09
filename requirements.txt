@@ -5,13 +5,7 @@ pandas
 pytest
 coverage
 flake8
-try_me
 black
 yapf
 python-gitlab
 twine
-datetime
-requests
-time
-os
-webbrowser
